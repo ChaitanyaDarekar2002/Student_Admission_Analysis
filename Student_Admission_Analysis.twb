@@ -1,0 +1,1763 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20261.26.0226.1626                               -->
+<workbook original-version='18.1' source-build='2026.1.0 (20261.26.0226.1626)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <Extensions />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <_.fcp.VizExtensions.true...VizExtensions />
+    <_.fcp.VizExtensionsDupEncodingUUID.true...VizExtensionsDupEncodingUUID />
+    <VizInTooltipHideWorksheet />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='Admission Records (Student_Admission_Records)' inline='true' name='federated.0qa31w90s5ikam1b5vc0h1sw0bfq' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Student_Admission_Records' name='excel-direct.0r2ry6b1wr59oh1bfh3se1sa28t9'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/rushi/Downloads/Student_Admission_Records.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='excel-direct.0r2ry6b1wr59oh1bfh3se1sa28t9' name='Admission Records' table='[&apos;Admission Records$&apos;]' type='table'>
+          <columns gridOrigin='A1:J101:no:A1:J101:0' header='yes' outcome='2'>
+            <column datatype='string' name='Student_ID' ordinal='0' />
+            <column datatype='string' name='Student_Name' ordinal='1' />
+            <column datatype='string' name='Gender' ordinal='2' />
+            <column datatype='integer' name='Age' ordinal='3' />
+            <column datatype='string' name='Course_Applied' ordinal='4' />
+            <column datatype='real' name='Previous_Percentage' ordinal='5' />
+            <column datatype='integer' name='Entrance_Exam_Score' ordinal='6' />
+            <column datatype='string' name='Admission_Status' ordinal='7' />
+            <column datatype='string' name='Fee_Status' ordinal='8' />
+            <column datatype='string' name='Admission_Date' ordinal='9' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Admission Records]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:J101:no:A1:J101:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Student_ID</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Student_ID]</local-name>
+            <parent-name>[Admission Records]</parent-name>
+            <remote-alias>Student_ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Admission Records_3C61F1DFB7404D4498FFD986EE64F254]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Student_Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Student_Name]</local-name>
+            <parent-name>[Admission Records]</parent-name>
+            <remote-alias>Student_Name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Admission Records_3C61F1DFB7404D4498FFD986EE64F254]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[Admission Records]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Admission Records_3C61F1DFB7404D4498FFD986EE64F254]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Age</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Age]</local-name>
+            <parent-name>[Admission Records]</parent-name>
+            <remote-alias>Age</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Admission Records_3C61F1DFB7404D4498FFD986EE64F254]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Course_Applied</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Course_Applied]</local-name>
+            <parent-name>[Admission Records]</parent-name>
+            <remote-alias>Course_Applied</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Admission Records_3C61F1DFB7404D4498FFD986EE64F254]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Previous_Percentage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Previous_Percentage]</local-name>
+            <parent-name>[Admission Records]</parent-name>
+            <remote-alias>Previous_Percentage</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[Admission Records_3C61F1DFB7404D4498FFD986EE64F254]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Entrance_Exam_Score</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Entrance_Exam_Score]</local-name>
+            <parent-name>[Admission Records]</parent-name>
+            <remote-alias>Entrance_Exam_Score</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[Admission Records_3C61F1DFB7404D4498FFD986EE64F254]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Admission_Status</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Admission_Status]</local-name>
+            <parent-name>[Admission Records]</parent-name>
+            <remote-alias>Admission_Status</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Admission Records_3C61F1DFB7404D4498FFD986EE64F254]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fee_Status</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Fee_Status]</local-name>
+            <parent-name>[Admission Records]</parent-name>
+            <remote-alias>Fee_Status</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Admission Records_3C61F1DFB7404D4498FFD986EE64F254]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Admission_Date</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Admission_Date]</local-name>
+            <parent-name>[Admission Records]</parent-name>
+            <remote-alias>Admission_Date</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RIN_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[Admission Records_3C61F1DFB7404D4498FFD986EE64F254]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Admission Date' datatype='string' name='[Admission_Date]' role='dimension' type='nominal' />
+      <column caption='Admission Status' datatype='string' name='[Admission_Status]' role='dimension' type='nominal' />
+      <column caption='Total Students' datatype='integer' name='[Calculation_0227326947561472]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT([Student_Name])' />
+      </column>
+      <column caption='Average Percentage' datatype='real' name='[Calculation_0227326949236737]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='AVG([Previous_Percentage])' />
+      </column>
+      <column caption='Pass_Student' datatype='integer' name='[Calculation_0227326949515266]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNT(&#13;&#10;IF [Previous_Percentage] &gt;= 40 THEN [Student_Name]&#13;&#10;END&#13;&#10;)' />
+      </column>
+      <column caption='Course Applied' datatype='string' name='[Course_Applied]' role='dimension' type='nominal' />
+      <column caption='Entrance Exam Score' datatype='integer' name='[Entrance_Exam_Score]' role='measure' type='quantitative' />
+      <column caption='Fee Status' datatype='string' name='[Fee_Status]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+      <column caption='Previous Percentage' datatype='real' name='[Previous_Percentage]' role='measure' type='quantitative' />
+      <column caption='Student ID' datatype='string' name='[Student_ID]' role='dimension' type='nominal' />
+      <column caption='Student Name' datatype='string' name='[Student_Name]' role='dimension' type='nominal' />
+      <column caption='Admission Records' datatype='table' name='[__tableau_internal_object_id__].[Admission Records_3C61F1DFB7404D4498FFD986EE64F254]' role='measure' type='quantitative' />
+      <column-instance column='[Admission_Status]' derivation='None' name='[none:Admission_Status:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Course_Applied]' derivation='None' name='[none:Course_Applied:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Student_Name]' derivation='None' name='[none:Student_Name:nk]' pivot='key' type='nominal' />
+      <group caption='Tooltip (Admission Status)' hidden='true' name='[Tooltip (Admission Status)]' name-style='unqualified' user:auto-column='sheet_link' user:ui-vit-column='true'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Admission_Status]' />
+        </groupfilter>
+      </group>
+      <group caption='Tooltip (Course Applied)' hidden='true' name='[Tooltip (Course Applied)]' name-style='unqualified' user:auto-column='sheet_link' user:ui-vit-column='true'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Course_Applied]' />
+        </groupfilter>
+      </group>
+      <group caption='Tooltip (Fee Status,Gender)' hidden='true' name='[Tooltip (Fee Status,Gender)]' name-style='unqualified' user:auto-column='sheet_link' user:ui-vit-column='true'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Fee_Status]' />
+          <groupfilter function='level-members' level='[Gender]' />
+        </groupfilter>
+      </group>
+      <group caption='Tooltip (Student Name)' hidden='true' name='[Tooltip (Student Name)]' name-style='unqualified' user:auto-column='sheet_link' user:ui-vit-column='true'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Student_Name]' />
+        </groupfilter>
+      </group>
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/rushi/AppData/Local/Temp/TableauTemp/#TableauTemp_0dqyb2p1egsbkb1fxu9350pen517.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='05/18/2026 09:20:23 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Student_ID</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Student_ID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Student_ID</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Admission Records</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>100</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Admission Records_3C61F1DFB7404D4498FFD986EE64F254]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Student_Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Student_Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Student_Name</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Admission Records</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>85</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Admission Records_3C61F1DFB7404D4498FFD986EE64F254]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Gender</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Gender]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Gender</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Admission Records</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Admission Records_3C61F1DFB7404D4498FFD986EE64F254]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Age</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Age]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Age</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Admission Records</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>8</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Admission Records_3C61F1DFB7404D4498FFD986EE64F254]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Course_Applied</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Course_Applied]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Course_Applied</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Admission Records</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>15</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Admission Records_3C61F1DFB7404D4498FFD986EE64F254]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Previous_Percentage</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Previous_Percentage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Previous_Percentage</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Admission Records</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>95</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Admission Records_3C61F1DFB7404D4498FFD986EE64F254]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Entrance_Exam_Score</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Entrance_Exam_Score]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Entrance_Exam_Score</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Admission Records</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>53</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[Admission Records_3C61F1DFB7404D4498FFD986EE64F254]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Admission_Status</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Admission_Status]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Admission_Status</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Admission Records</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Admission Records_3C61F1DFB7404D4498FFD986EE64F254]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Fee_Status</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Fee_Status]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Fee_Status</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Admission Records</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Admission Records_3C61F1DFB7404D4498FFD986EE64F254]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Admission_Date</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Admission_Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Admission_Date</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Admission Records</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>33</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RIN_S2' />
+              <object-id>[Admission Records_3C61F1DFB7404D4498FFD986EE64F254]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Student_Name:nk]' palette='red_10_0' type='palette'>
+            <map to='#ae123a'>
+              <bucket>&quot;Tushar Ghosh&quot;</bucket>
+            </map>
+            <map to='#c21b3b'>
+              <bucket>&quot;Trisha Srivastava&quot;</bucket>
+            </map>
+            <map to='#d52b3d'>
+              <bucket>&quot;Priya Sharma&quot;</bucket>
+            </map>
+            <map to='#e33e43'>
+              <bucket>&quot;Pooja Singh&quot;</bucket>
+            </map>
+            <map to='#ee554b'>
+              <bucket>&quot;Nisha Naik&quot;</bucket>
+            </map>
+            <map to='#f46c59'>
+              <bucket>&quot;Mohit Bhatia&quot;</bucket>
+            </map>
+            <map to='#f8826b'>
+              <bucket>&quot;Kavya Rao&quot;</bucket>
+            </map>
+            <map to='#fb9782'>
+              <bucket>&quot;Ishita Kumar&quot;</bucket>
+            </map>
+            <map to='#fdaa9a'>
+              <bucket>&quot;Ananya Verma&quot;</bucket>
+            </map>
+            <map to='#ffbeb2'>
+              <bucket>&quot;Aarav Sharma&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Course_Applied:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Electronics &amp; Communication&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Architecture&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Civil Engineering&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Mechanical Engineering&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Information Technology&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Computer Science&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Biotechnology&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Data Science&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Medical Sciences&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Psychology&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Law&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Economics&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Business Administration&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Mass Communication&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Chemical Engineering&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Admission_Status:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Confirmed&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Rejected&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Pending&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;India&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='Admission Records' id='Admission Records_3C61F1DFB7404D4498FFD986EE64F254'>
+            <properties context=''>
+              <relation connection='excel-direct.0r2ry6b1wr59oh1bfh3se1sa28t9' name='Admission Records' table='[&apos;Admission Records$&apos;]' type='table'>
+                <columns gridOrigin='A1:J101:no:A1:J101:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Student_ID' ordinal='0' />
+                  <column datatype='string' name='Student_Name' ordinal='1' />
+                  <column datatype='string' name='Gender' ordinal='2' />
+                  <column datatype='integer' name='Age' ordinal='3' />
+                  <column datatype='string' name='Course_Applied' ordinal='4' />
+                  <column datatype='real' name='Previous_Percentage' ordinal='5' />
+                  <column datatype='integer' name='Entrance_Exam_Score' ordinal='6' />
+                  <column datatype='string' name='Admission_Status' ordinal='7' />
+                  <column datatype='string' name='Fee_Status' ordinal='8' />
+                  <column datatype='string' name='Admission_Date' ordinal='9' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Admission_Status'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Admission Records (Student_Admission_Records)' name='federated.0qa31w90s5ikam1b5vc0h1sw0bfq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0qa31w90s5ikam1b5vc0h1sw0bfq'>
+            <column caption='Admission Status' datatype='string' name='[Admission_Status]' role='dimension' type='nominal' />
+            <column caption='Course Applied' datatype='string' name='[Course_Applied]' role='dimension' type='nominal' />
+            <column caption='Entrance Exam Score' datatype='integer' name='[Entrance_Exam_Score]' role='measure' type='quantitative' />
+            <column-instance column='[Entrance_Exam_Score]' derivation='Avg' name='[avg:Entrance_Exam_Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Admission_Status]' derivation='None' name='[none:Admission_Status:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[Tooltip (Course Applied)]'>
+            <groupfilter function='level-members' level='[Course_Applied]' user:ui-action-filter='[Action - Admission_Status]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[Tooltip (Course Applied)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[none:Admission_Status:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'><![CDATA[<Sheet name="Top 10 Student" maxwidth="300" maxheight="300" filter="<All Fields>">]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Admission Status:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[none:Admission_Status:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Avg. Entrance Exam Score:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[avg:Entrance_Exam_Score:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[none:Admission_Status:nk]</rows>
+        <cols>[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[avg:Entrance_Exam_Score:qk]</cols>
+      </table>
+      <simple-id uuid='{8835F051-7EE9-4788-8B03-31CDE7FEF8A6}' />
+    </worksheet>
+    <worksheet name='Course_Applied'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Admission Records (Student_Admission_Records)' name='federated.0qa31w90s5ikam1b5vc0h1sw0bfq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0qa31w90s5ikam1b5vc0h1sw0bfq'>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column caption='Course Applied' datatype='string' name='[Course_Applied]' role='dimension' type='nominal' />
+            <column caption='Entrance Exam Score' datatype='integer' name='[Entrance_Exam_Score]' role='measure' type='quantitative' />
+            <column-instance column='[Age]' derivation='Avg' name='[avg:Age:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Entrance_Exam_Score]' derivation='Avg' name='[avg:Entrance_Exam_Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Entrance_Exam_Score]' derivation='Max' name='[max:Entrance_Exam_Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Course_Applied]' derivation='None' name='[none:Course_Applied:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[none:Course_Applied:nk]' />
+              <wedge-size column='[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[avg:Age:qk]' />
+              <size column='[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[avg:Entrance_Exam_Score:qk]' />
+              <text column='[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[max:Entrance_Exam_Score:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'><![CDATA[<Sheet name="Admission_Status" maxwidth="300" maxheight="300" filter="<All Fields>">]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Course Applied:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[none:Course_Applied:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Avg. Age:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[avg:Age:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Avg. Entrance Exam Score:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[avg:Entrance_Exam_Score:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Max. Entrance Exam Score:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[max:Entrance_Exam_Score:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{17B5B762-A837-4AE1-AA2C-7D4A8127FC56}' />
+    </worksheet>
+    <worksheet name='Fee_statusvsGender'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Admission Records (Student_Admission_Records)' name='federated.0qa31w90s5ikam1b5vc0h1sw0bfq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0qa31w90s5ikam1b5vc0h1sw0bfq'>
+            <column caption='Fee Status' datatype='string' name='[Fee_Status]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column caption='Previous Percentage' datatype='real' name='[Previous_Percentage]' role='measure' type='quantitative' />
+            <column-instance column='[Previous_Percentage]' derivation='Max' name='[max:Previous_Percentage:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Fee_Status]' derivation='None' name='[none:Fee_Status:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <_.fcp.VizExtensions.false...mark class='Automatic' />
+            <_.fcp.VizExtensions.true...mark class='VizExtension' />
+            <_.fcp.VizExtensions.true...add-in add-in-id='com.tableau.extension.radial' extension-url='https://tableau-extensions.tableauusercontent.com/radial/radial.html' extension-version='1.0.0' instance-id='CC742CAF4EFC4335967A0851D8299689'>
+              <instance-settings>
+                <setting key='radius-padding' value='11' />
+                <setting key='range' value='360' />
+                <setting key='show-segment-labels' value='true' />
+              </instance-settings>
+              <type-settings>
+                <worksheet />
+              </type-settings>
+            </_.fcp.VizExtensions.true...add-in>
+            <encodings>
+              <_.fcp.VizExtensions.false...lod _.fcp.VizExtensionsDupEncodingUUID.true...encoding-id='{8EB08AA7-CC85-4393-97B1-465746D03049}' column='[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[none:Fee_Status:nk]' />
+              <_.fcp.VizExtensions.true...custom _.fcp.VizExtensionsDupEncodingUUID.true...encoding-id='{8EB08AA7-CC85-4393-97B1-465746D03049}' column='[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[none:Fee_Status:nk]' custom-type-name='level' />
+              <_.fcp.VizExtensions.false...lod _.fcp.VizExtensionsDupEncodingUUID.true...encoding-id='{F70C2583-9F0F-4A8C-B355-62B4FC9C4465}' column='[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[none:Gender:nk]' />
+              <_.fcp.VizExtensions.true...custom _.fcp.VizExtensionsDupEncodingUUID.true...encoding-id='{F70C2583-9F0F-4A8C-B355-62B4FC9C4465}' column='[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[none:Gender:nk]' custom-type-name='level' />
+              <_.fcp.VizExtensions.false...lod _.fcp.VizExtensionsDupEncodingUUID.true...encoding-id='{63DA4CB3-E871-4643-886F-8B795672F3DE}' column='[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[max:Previous_Percentage:qk]' />
+              <_.fcp.VizExtensions.true...custom _.fcp.VizExtensionsDupEncodingUUID.true...encoding-id='{63DA4CB3-E871-4643-886F-8B795672F3DE}' column='[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[max:Previous_Percentage:qk]' custom-type-name='angle' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'><![CDATA[<Sheet name="Total_Student" maxwidth="300" maxheight="300" filter="<All Fields>">]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Fee Status:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[none:Fee_Status:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Gender:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[none:Gender:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Max. Previous Percentage:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[max:Previous_Percentage:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{2A6C03C2-D446-422C-B61B-683F4BA1DFB6}' />
+    </worksheet>
+    <worksheet name='Top 10 Student'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Admission Records (Student_Admission_Records)' name='federated.0qa31w90s5ikam1b5vc0h1sw0bfq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0qa31w90s5ikam1b5vc0h1sw0bfq'>
+            <column caption='Admission Status' datatype='string' name='[Admission_Status]' role='dimension' type='nominal' />
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column caption='Previous Percentage' datatype='real' name='[Previous_Percentage]' role='measure' type='quantitative' />
+            <column caption='Student Name' datatype='string' name='[Student_Name]' role='dimension' type='nominal' />
+            <column-instance column='[Previous_Percentage]' derivation='Max' name='[max:Previous_Percentage:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Student_Name]' derivation='None' name='[none:Student_Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Age]' derivation='Sum' name='[sum:Age:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[Tooltip (Admission Status)]'>
+            <groupfilter function='level-members' level='[Admission_Status]' user:ui-action-filter='[Action - Top 10 Student]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[none:Student_Name:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='AVG([Previous_Percentage])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Student_Name:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[none:Student_Name:nk]</column>
+            <column>[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[Tooltip (Admission Status)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[none:Student_Name:nk]' />
+              <text column='[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[sum:Age:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'><![CDATA[<Sheet name="Top Entrance Score" maxwidth="300" maxheight="300" filter="<All Fields>">]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Student Name:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[none:Student_Name:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Max. Previous Percentage:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[max:Previous_Percentage:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Age:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[sum:Age:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[max:Previous_Percentage:qk]</rows>
+        <cols>[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[none:Student_Name:nk]</cols>
+      </table>
+      <simple-id uuid='{ACD2C9A9-E936-4C76-89FC-A184E259C4B5}' />
+    </worksheet>
+    <worksheet name='Top Entrance Score'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Admission Records (Student_Admission_Records)' name='federated.0qa31w90s5ikam1b5vc0h1sw0bfq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0qa31w90s5ikam1b5vc0h1sw0bfq'>
+            <column caption='Course Applied' datatype='string' name='[Course_Applied]' role='dimension' type='nominal' />
+            <column caption='Entrance Exam Score' datatype='integer' name='[Entrance_Exam_Score]' role='measure' type='quantitative' />
+            <column caption='Student Name' datatype='string' name='[Student_Name]' role='dimension' type='nominal' />
+            <column-instance column='[Entrance_Exam_Score]' derivation='Avg' name='[avg:Entrance_Exam_Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Course_Applied]' derivation='None' name='[none:Course_Applied:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[Tooltip (Student Name)]'>
+            <groupfilter function='level-members' level='[Student_Name]' user:ui-action-filter='[Action - Top Entrance Score]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[none:Course_Applied:nk]' direction='ASC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[avg:Entrance_Exam_Score:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[Tooltip (Student Name)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <color column='[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[none:Course_Applied:nk]' />
+              <text column='[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[avg:Entrance_Exam_Score:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'><![CDATA[<Sheet name="Total_Student" maxwidth="300" maxheight="300" filter="<All Fields>">]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Course Applied:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[none:Course_Applied:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'>Avg. Entrance Exam Score:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[avg:Entrance_Exam_Score:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[avg:Entrance_Exam_Score:qk]</rows>
+        <cols>[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[none:Course_Applied:nk]</cols>
+      </table>
+      <simple-id uuid='{354C882A-C814-4621-A173-003A378E29D8}' />
+    </worksheet>
+    <worksheet name='Total_Student'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Admission Records (Student_Admission_Records)' name='federated.0qa31w90s5ikam1b5vc0h1sw0bfq' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0qa31w90s5ikam1b5vc0h1sw0bfq'>
+            <column datatype='integer' name='[Age]' role='measure' type='quantitative' />
+            <column caption='Total Students' datatype='integer' name='[Calculation_0227326947561472]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT([Student_Name])' />
+            </column>
+            <column caption='Average Percentage' datatype='real' name='[Calculation_0227326949236737]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='AVG([Previous_Percentage])' />
+            </column>
+            <column caption='Pass_Student' datatype='integer' name='[Calculation_0227326949515266]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='COUNT(&#13;&#10;IF [Previous_Percentage] &gt;= 40 THEN [Student_Name]&#13;&#10;END&#13;&#10;)' />
+            </column>
+            <column caption='Course Applied' datatype='string' name='[Course_Applied]' role='dimension' type='nominal' />
+            <column caption='Entrance Exam Score' datatype='integer' name='[Entrance_Exam_Score]' role='measure' type='quantitative' />
+            <column caption='Fee Status' datatype='string' name='[Fee_Status]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column caption='Previous Percentage' datatype='real' name='[Previous_Percentage]' role='measure' type='quantitative' />
+            <column caption='Student Name' datatype='string' name='[Student_Name]' role='dimension' type='nominal' />
+            <column-instance column='[Age]' derivation='Max' name='[max:Age:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Entrance_Exam_Score]' derivation='Max' name='[max:Entrance_Exam_Score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Previous_Percentage]' derivation='Sum' name='[sum:Previous_Percentage:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_0227326947561472]' derivation='User' name='[usr:Calculation_0227326947561472:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_0227326949236737]' derivation='User' name='[usr:Calculation_0227326949236737:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_0227326949515266]' derivation='User' name='[usr:Calculation_0227326949515266:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[max:Age:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[usr:Calculation_0227326949236737:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[max:Entrance_Exam_Score:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[usr:Calculation_0227326949515266:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[sum:Previous_Percentage:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[usr:Calculation_0227326947561472:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[max:Age:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[usr:Calculation_0227326949236737:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[max:Entrance_Exam_Score:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[usr:Calculation_0227326949515266:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[sum:Previous_Percentage:qk]&quot;</bucket>
+              <bucket>&quot;[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[usr:Calculation_0227326947561472:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[Tooltip (Course Applied)]'>
+            <groupfilter function='level-members' level='[Course_Applied]' user:ui-action-filter='[Action - Total_Student]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[Tooltip (Fee Status,Gender)]'>
+            <groupfilter function='crossjoin' user:ui-action-filter='[Action - Total_Student]' user:ui-enumeration='all' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[Fee_Status]' />
+              <groupfilter function='level-members' level='[Gender]' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[:Measure Names]</column>
+            <column>[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[Tooltip (Course Applied)]</column>
+            <column>[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[Tooltip (Fee Status,Gender)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[:Measure Names]' value='191' />
+            <format attr='height' value='64' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height' field='[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[:Measure Names]' value='68' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[Multiple Values]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#757575'><![CDATA[<Sheet name="Top 10 Student" maxwidth="300" maxheight="300" filter="<All Fields>">]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#757575'><![CDATA[<[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[:Measure Names]>:	]]></run>
+                <run bold='true'><![CDATA[<[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[Multiple Values]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[:Measure Names]</cols>
+      </table>
+      <simple-id uuid='{6FEDC8FB-5EFF-4C56-AF0E-DA815D61FD10}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98120' id='7' param='horz' type-v2='layout-flow' w='99034' x='483' y='940'>
+            <zone h='98120' id='5' type-v2='layout-basic' w='99034' x='483' y='940'>
+              <zone h='49060' id='3' name='Top 10 Student' w='49517' x='50000' y='940'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49060' id='9' name='Admission_Status' w='24760' x='25240' y='940'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49060' id='11' name='Course_Applied' w='24759' x='50000' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49060' id='14' name='Top Entrance Score' w='49517' x='483' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49060' id='15' name='Total_Student' w='24757' x='483' y='940'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+              <zone h='49060' id='16' name='Fee_statusvsGender' w='24758' x='74759' y='50000'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='1750' minheight='1750' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='18' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98120' id='17' param='vert' type-v2='layout-flow' w='99034' x='483' y='940'>
+                <zone fixed-size='280' h='49060' id='15' is-fixed='true' name='Total_Student' w='24757' x='483' y='940'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49060' id='9' is-fixed='true' name='Admission_Status' w='24760' x='25240' y='940'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49060' id='3' is-fixed='true' name='Top 10 Student' w='49517' x='50000' y='940'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49060' id='14' is-fixed='true' name='Top Entrance Score' w='49517' x='483' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49060' id='11' is-fixed='true' name='Course_Applied' w='24759' x='50000' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='49060' id='16' is-fixed='true' name='Fee_statusvsGender' w='24758' x='74759' y='50000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{1A13596E-5FBB-4768-989C-609C8D4A8DC8}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Total_Student'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{655EB05F-A360-4B0E-9277-9BDA2A646A27}' />
+    </window>
+    <window class='worksheet' name='Course_Applied'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[none:Course_Applied:nk]' type='color' />
+            <card pane-specification-id='0' param='[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[avg:Entrance_Exam_Score:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{2629E720-1456-43BF-96F5-20EFA316BDB1}' />
+    </window>
+    <window class='worksheet' name='Admission_Status'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='100'>
+            <card pane-specification-id='0' param='[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[none:Admission_Status:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{B0DD5336-37C7-4FF7-8BB5-74A834D3F66C}' />
+    </window>
+    <window class='worksheet' name='Top 10 Student'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[none:Student_Name:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{47FECD7E-25D7-40A1-9AB7-E0376562E15E}' />
+    </window>
+    <window class='worksheet' name='Top Entrance Score'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0qa31w90s5ikam1b5vc0h1sw0bfq].[none:Course_Applied:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{8149FA1C-B35A-46F2-BD37-6890CD3AAC21}' />
+    </window>
+    <window class='worksheet' name='Fee_statusvsGender'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{B14FD472-7BB3-46FC-981B-D36A49878553}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Admission_Status'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Course_Applied'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Fee_statusvsGender' />
+        <viewpoint name='Top 10 Student'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Top Entrance Score'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Total_Student'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='9' />
+      <simple-id uuid='{112D3F31-BA10-4C0F-A749-962915D171C9}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+  <_.fcp.VizExtensions.true...referenced-extensions>
+    <_.fcp.VizExtensions.true...referenced-extension>
+      <manifest manifest-version='0.1'>
+        <worksheet-extension extension-version='1.0.0' id='com.tableau.extension.radial'>
+          <default-locale>en_US</default-locale>
+          <name resource-id='name' />
+          <description>A radial chart displays data in a circular format in which the total of all segment values add up to 100%, representing the whole. This visualization type creates donut charts, sunbursts, and fan charts, which are powerful means to summarize simple part-to-whole insights at a high level.</description>
+          <author email='github@tableau.com' name='Tableau' organization='Tableau' website='https://www.tableau.com/support' />
+          <min-api-version>1.12</min-api-version>
+          <source-location>
+            <url>https://tableau-extensions.tableauusercontent.com/radial/radial.html</url>
+          </source-location>
+          <icon />
+          <context-menu>
+            <configure-context-menu-item />
+          </context-menu>
+          <encoding id='level'>
+            <display-name resource-id='level-encoding'>Ring</display-name>
+            <role-spec>
+              <role-type>discrete-dimension</role-type>
+              <role-type>discrete-measure</role-type>
+            </role-spec>
+            <fields max-count='5' />
+            <encoding-icon token='level-radial' />
+            <tooltip resource-id='level-tooltip'>Radial Ring - Drag up to five dimensions here.</tooltip>
+          </encoding>
+          <encoding id='angle'>
+            <display-name resource-id='angle-encoding'>Angle</display-name>
+            <role-spec>
+              <role-type>continuous-measure</role-type>
+            </role-spec>
+            <fields max-count='1' />
+            <encoding-icon token='wedge' />
+            <tooltip resource-id='angle-tooltip'>Segment Angle - Drag a measure here.</tooltip>
+          </encoding>
+          <encoding id='center'>
+            <display-name resource-id='center-encoding'>Center</display-name>
+            <role-spec>
+              <role-type>continuous-measure</role-type>
+              <role-type>discrete-measure</role-type>
+            </role-spec>
+            <fields max-count='1' />
+            <encoding-icon token='exclamation' />
+            <tooltip resource-id='center-tooltip'>Center Label - Drag a measure here</tooltip>
+          </encoding>
+        </worksheet-extension>
+        <resources>
+          <resource id='angle-encoding'>
+            <text locale='de_DE'>Winkel</text>
+            <text locale='en_GB'>Angle</text>
+            <text locale='en_US'>Angle</text>
+            <text locale='es_ES'>Ángulo</text>
+            <text locale='fr_CA'>Angle</text>
+            <text locale='fr_FR'>Angle</text>
+            <text locale='it_IT'>Angolo</text>
+            <text locale='ja_JP'>角度</text>
+            <text locale='ko_KR'>각도</text>
+            <text locale='nl_NL'>Hoek</text>
+            <text locale='pt_BR'>Ângulo</text>
+            <text locale='sv_SE'>Vinkel</text>
+            <text locale='th_TH'>มุม</text>
+            <text locale='zh_CN'>角度</text>
+            <text locale='zh_TW'>角度</text>
+          </resource>
+          <resource id='angle-tooltip'>
+            <text locale='de_DE'>Segmentwinkel - Kennzahl hierher ziehen.</text>
+            <text locale='en_GB'>Segment Angle - Drag a measure here.</text>
+            <text locale='en_US'>Segment Angle - Drag a measure here.</text>
+            <text locale='es_ES'>Ángulo del segmento - Arrastre la medida aquí.</text>
+            <text locale='fr_CA'>Angle du segment - Faites glisser la mesure ici.</text>
+            <text locale='fr_FR'>Angle du segment - Faites glisser la mesure ici.</text>
+            <text locale='it_IT'>Angolo del segmento - Trascina la misura qui.</text>
+            <text locale='ja_JP'>セグメントの角度 - メジャーを使用.</text>
+            <text locale='ko_KR'>세그먼트 각도 - 측정값 사용.</text>
+            <text locale='nl_NL'>Segmenthoek - Sleep meetwaarde hierheen.</text>
+            <text locale='pt_BR'>Ângulo do segmento - Arraste a medida aqui.</text>
+            <text locale='sv_SE'>Segmentvinkel - Dra mått hit.</text>
+            <text locale='th_TH'>มุมของส่วน - ใช้ค่าการวัด.</text>
+            <text locale='zh_CN'>分段角度 - 使用度量.</text>
+            <text locale='zh_TW'>分段角度 - 使用測量值.</text>
+          </resource>
+          <resource id='center-encoding'>
+            <text locale='de_DE'>Zentrum</text>
+            <text locale='en_GB'>Centre</text>
+            <text locale='en_US'>Center</text>
+            <text locale='es_ES'>Centro</text>
+            <text locale='fr_CA'>Centre</text>
+            <text locale='fr_FR'>Centre</text>
+            <text locale='it_IT'>Centro</text>
+            <text locale='ja_JP'>中心</text>
+            <text locale='ko_KR'>중심</text>
+            <text locale='nl_NL'>Centrum</text>
+            <text locale='pt_BR'>Centro</text>
+            <text locale='sv_SE'>Centrum</text>
+            <text locale='th_TH'>ศูนย์กลาง</text>
+            <text locale='zh_CN'>中心</text>
+            <text locale='zh_TW'>中心</text>
+          </resource>
+          <resource id='center-tooltip'>
+            <text locale='de_DE'>Text zentrieren - Kennzahl hierher ziehen.</text>
+            <text locale='en_GB'>Centre Label - Drag a measure here.</text>
+            <text locale='en_US'>Center Label - Drag a measure here.</text>
+            <text locale='es_ES'>Texto central - Arrastre la medida aquí.</text>
+            <text locale='fr_CA'>Texte central - Faites glisser la mesure ici.</text>
+            <text locale='fr_FR'>Texte central - Faites glisser la mesure ici.</text>
+            <text locale='it_IT'>Testo centrale - Trascina la misura qui.</text>
+            <text locale='ja_JP'>中央のテキスト - メジャーを使用.</text>
+            <text locale='ko_KR'>중앙 텍스트 - 측정값 사용.</text>
+            <text locale='nl_NL'>Tekst in het midden - Sleep meetwaarde hierheen.</text>
+            <text locale='pt_BR'>Texto central - Arraste a medida aqui</text>
+            <text locale='sv_SE'>Tekst in het midden - Sleep meetwaarde hierheen.</text>
+            <text locale='th_TH'>ข้อความตรงกลาง - ใช้ค่าการวัด.</text>
+            <text locale='zh_CN'>中心文字 - 使用度量.</text>
+            <text locale='zh_TW'>中心文字 - 使用測量值.</text>
+          </resource>
+          <resource id='level-encoding'>
+            <text locale='de_DE'>Hierarchieebene</text>
+            <text locale='en_GB'>Ring</text>
+            <text locale='en_US'>Ring</text>
+            <text locale='es_ES'>Anillo</text>
+            <text locale='fr_CA'>Anneau</text>
+            <text locale='fr_FR'>Anneau</text>
+            <text locale='it_IT'>Anello</text>
+            <text locale='ja_JP'>階層レベル</text>
+            <text locale='ko_KR'>원</text>
+            <text locale='nl_NL'>Ring</text>
+            <text locale='pt_BR'>Anel</text>
+            <text locale='sv_SE'>nivå</text>
+            <text locale='th_TH'>วงแหวน</text>
+            <text locale='zh_CN'>环</text>
+            <text locale='zh_TW'>環</text>
+          </resource>
+          <resource id='level-tooltip'>
+            <text locale='de_DE'>Hierarchieebene - Ziehen Sie hier bis zu fünf Dimensionen.</text>
+            <text locale='en_GB'>Radial Ring - Drag up to five dimensions here.</text>
+            <text locale='en_US'>Radial Ring - Drag up to five dimensions here.</text>
+            <text locale='es_ES'>Anillo - Arrastre aquí hasta cinco dimensiones.</text>
+            <text locale='fr_CA'>Anneau - Faites glisser jusqu&apos;à cinq dimensions ici.</text>
+            <text locale='fr_FR'>Anneau - Faites glisser jusqu&apos;à cinq dimensions ici.</text>
+            <text locale='it_IT'>Anello - Trascina qui fino a cinque dimensioni.</text>
+            <text locale='ja_JP'>階層レベル - 最大5つのディメンション.</text>
+            <text locale='ko_KR'>원 - 최대 5개의 디멘션.</text>
+            <text locale='nl_NL'>Ring - Sleep hier maximaal vijf dimensies naartoe.</text>
+            <text locale='pt_BR'>Anel - Arraste até cinco dimensões aqui.</text>
+            <text locale='sv_SE'>nivå - Dra upp till fem dimensioner här.</text>
+            <text locale='th_TH'>วงแหวน - &#9;มิติสูงสุดห้ามิติ.</text>
+            <text locale='zh_CN'>环 - 最多五个维度.</text>
+            <text locale='zh_TW'>環 - 最多五個維度.</text>
+          </resource>
+          <resource id='name'>
+            <text locale='en_US'>Radial</text>
+            <text locale='ja_JP'>サンバーストチャート</text>
+            <text locale='zh_CN'>旭日圖</text>
+          </resource>
+        </resources>
+      </manifest>
+      <referenced-views>
+        <referenced-view instances='1' viewId='Fee_statusvsGender' />
+      </referenced-views>
+    </_.fcp.VizExtensions.true...referenced-extension>
+  </_.fcp.VizExtensions.true...referenced-extensions>
+</workbook>
