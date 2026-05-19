@@ -212,6 +212,8 @@ pip install pandas numpy matplotlib seaborn openpyxl
 ```bash
 python analysis.py
 ```
+# Power BI dashboard Preview
+<img width="1919" height="1019" alt="image" src="https://github.com/user-attachments/assets/1fb7dd83-80cd-49e0-8f4d-96986d526d8a" />
 
 ---
 
